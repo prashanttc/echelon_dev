@@ -6,7 +6,7 @@ import { TypingText } from '../CustomTexts';
 import { fadeIn, staggerContainer } from '../../utils/motion';
 
 const About = () => (
-  <section id='about' className=" relative z-10 padding">
+  <section id='about' className=" relative z-10 ">
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer(0.1,0.9)}
@@ -15,11 +15,11 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className='flex items-center justify-center mx-auto inner-width flex-col'
     >
-      <TypingText title="About Echeleon" textStyles="text-center mb-10  font-semibold text-[34px]" />
+      <TypingText title="About Echeleon" textStyles="text-center mb-10  font-semibold text-[30px] md:text-[54px] text-white" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-light sm:text-[28px] text-[15px]  text-center text-secondary-white"
+        className="mt-[8px] font-light sm:text-[28px] text-[15px] w-full  text-center text-secondary-white"
       >
        <p>Echelon Dev Society is a vibrant college club dedicated to fostering innovation and technical expertise. Focused on bridging academic learning with real-world applications, the club organizes hackathons, workshops, and bootcamps on emerging technologies like AI, blockchain, and web development.
 

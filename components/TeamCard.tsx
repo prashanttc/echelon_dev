@@ -15,7 +15,7 @@ type Props = {
 const TeamCard = ({ role,index, active, handleclick, imgUrl, name, id }: Props) => {
   return (
   <>  
-    <motion.div variants={fadeIn('right', 'spring', index * 0.5, 0.75)} className={`relative ${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.2] flex-[2]'} flex items-center justify-center min-w-[100px] h-[700px] transition-[flex] rounded-3xl  duration-[0.7s] ease-out-flex cursor-pointer text-white`} onClick={() => handleclick(id)}>
+    <motion.div variants={fadeIn('right', 'spring', index * 0.5, 0.5)} className={`relative ${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.2] flex-[2]'} flex items-center justify-center min-w-[100px] h-[700px] transition-[flex] rounded-3xl ease-out-flex cursor-pointer text-white`} onClick={() => handleclick(id)}>
       <Image src={imgUrl} alt={name} height={1000} width={1000} className='h-full w-full rounded-3xl absolute object-cover' />
       {active !== id ? (
         <h3 className='font-semibold text-[18px] sm:text-[26px] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]'>{name}</h3>

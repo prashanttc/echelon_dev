@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Hero = () => {
     const transitionSettings = staggerContainer(0.1, 0.9);
     return (
-        <section id='home' className='sm:pl-16 pl-6 padding-y'>
+        <section id='home' className='sm:pl-16 pl-6 pt-[100px] mb-32 '>
             <motion.div variants={transitionSettings} initial='hidden' whileInView='show' viewport={{ once: false, amount: 0.25 }} className='mx-auto flex flex-col inner-width'>
                 <div className='flex justify-center items-center flex-col relative z-10'>
                     <motion.h1 variants={textVariant(1.1)} className='hero-heading'>
