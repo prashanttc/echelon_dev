@@ -15,7 +15,7 @@ const Navbar = () => {
           <SheetTrigger><Image src='/menu.svg' height={24} width={24} alt='menu' className='object-contain w-[24px] h-[24px] md:hidden' />
           </SheetTrigger>
           <SheetContent className="bg-black">
-        <div className="flex flex-col gap-10 items-center justify-center mt-12 cursor-pointer">
+        <div className="flex flex-col gap-10 items-center justify-center mt-12 cursor-pointerA">
         <Link href='#about' className="text-white font-semibold text-[24px]">About</Link>
           <Link href='#explore' className="text-white font-semibold text-[24px]">Team</Link>
           <Link href='#news' className="text-white font-semibold text-[24px]">News</Link>
