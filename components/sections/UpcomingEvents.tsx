@@ -1,0 +1,34 @@
+"use client";
+
+import { motion } from "framer-motion";
+import { staggerContainer } from "@/utils/motion";
+import { TitleText, TypingText } from "../CustomTexts";
+import {  news } from "@/constants";
+import NewsCard from "../NewsCard";
+const UpcomingEvents = () => {
+  return (
+    <> 
+    <section className="md:padding relative w-full " id="news">
+       <div className="gradient-04 z-0 hidden md:block" />
+       <div className="gradient-03 z-0 " />
+      <motion.div
+        variants={staggerContainer(0.9, 0.1)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className=" mx-0  w-full md:mx-auto items-center justify-center flex flex-col"
+      >
+        <TypingText title="upcoming events" textStyles="text-center text-[10px] mb-10 sm:text-[14px] z-10"/>
+        <TitleText title='upates and upcoming events' textStyles="text-center font-semibold text-[32px] z-10 sm:text-[64px]"/>
+        <div className="mt-[50px] md:mt-[100px] w-full flex flex-col items-center gap-10 z-10">
+            {news.map((news,index)=>(
+                <NewsCard key={index} imgUrl={news.imgUrl} index={index} subheading={news.subheading} title={news.title}/>
+            ))}
+        </div>
+      </motion.div>
+    </section>
+    </>
+  );
+};
+
+export default UpcomingEvents;
