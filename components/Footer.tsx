@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { socials } from '../constants';
 import Image from 'next/image';
 
@@ -20,14 +21,15 @@ cdgi ,indore          </p>
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <Image
+          <Link href={social.link} key={social.name}>
+                <Image
               width={1000}
               height={1000}
-                key={social.name}
                 src={social.url}
                 alt={social.name}
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
               />
+          </Link>
             ))}
           </div>
         </div>

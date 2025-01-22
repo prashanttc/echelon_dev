@@ -19,18 +19,16 @@ const Extra = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Samantha
+          <h4 className="font-bold sm:text-[32px] text-[20px] sm:leading-[40.32px] leading-[36.32px] text-white">
+            Anirudhh dugbe
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            Founder Metaverus
+           echelon club head
           </p>
         </div>
 
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          “With the development of today&apos;s technology, metaverse is very
-          useful for today&apos;s work, or can be called web 3.0. by using
-          metaverse you can use it as anything”
+        <p className="mt-[24px] font-normal sm:text-[18px] text-[10px] sm:leading-[45.6px] leading-[19.6px] text-white">
+        In today’s fast-paced tech landscape, hackathons are more than just competitions—they’re a platform for innovation, collaboration, and skill-building. Through our hackathon club, students can turn their ideas into reality and gain hands-on experience that prepares them for the challenges of tomorrow
         </p>
       </motion.div>
 
@@ -39,11 +37,11 @@ const Extra = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <Image
-          src="/planet-09.png"
+          src="/extra.jpg"
           width={240}
           height={240}
-          alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          alt="mascot"
+          className="w-full lg:h-[610px] bg-red-300 h-auto min-h-[210px] object-cover rounded-[40px]"
         />
 
         <motion.div
@@ -53,9 +51,9 @@ const Extra = () => (
           <Image
             width={540}
             height={540}
-            src="/stamp.png"
-            alt="stamp"
-            className="w-[155px] h-[155px] object-cover"
+            src="/logo.png"
+            alt="logo"
+            className="w-[200px] h-[200px] object-cover"
           />
         </motion.div>
       </motion.div>
