@@ -1,74 +1,54 @@
-export const exploreWorlds = [
+export const Core = [
     {
-      id: 'world-1',
+      id: '1',
       imgUrl: '/planet-01.png',
-      name: 'The Hogwarts',
-      role:'creative head',
+      name: 'Jigyarth Sharma',
+      role:'Innovation and outreach core',
 
     },
     {
-      id: 'world-2',
+      id: '2',
       imgUrl: '/planet-02.png',
-      name: 'The Upside Down',
-      role:'creative head',
+      name: 'Atharva Raj Thakur',
+      role:'Tech Core',
 
     },
     {
-      id: 'world-3',
+      id: '3',
       imgUrl: '/planet-03.png',
-      name: 'Kadirojo Permai',
-           role:'creative head',
+      name: 'Anam Mansoori',
+           role:'Social media core',
 
     },
     {
-      id: 'world-4',
+      id: '4',
       imgUrl: '/planet-04.png',
-      name: 'Paradise Island',
-      role:'creative head',
+      name: 'Anirudhh Dugbe',
+      role:'Tech Core',
     },
     {
-      id: 'world-5',
+      id: '5',
       imgUrl: '/planet-05.png',
-      name: 'Hawkins Labs',
-      role:'creative head',
+      name: 'Tanishka Bhagat',
+      role:'creative core',
 
     },
     {
-      id: 'world-6',
+      id: '6',
       imgUrl: '/planet-05.png',
-      name: 'Hawkins Labs',
-      role:'creative head',
+      name: 'Devansh jagtap',
+      role:'operational and logistic core',
 
     },
     {
-      id: 'world-7',
+      id: '7',
       imgUrl: '/planet-05.png',
-      name: 'Hawkins Labs',
-      role:'creative head',
+      name: 'Ketan Thombare',
+      role:'management core',
     },
 
   ];
-  
-  export const startingFeatures = [
-    'Find a world that suits you and you want to enter',
-    'Enter the world by reading basmalah to be safe',
-    'No need to beat around the bush, just stay on the gas and have fun',
-  ];
-  
-  export const newFeatures = [
-    {
-      imgUrl: '/vrpano.svg',
-      title: 'A new world',
-      subheading:
-          'we have the latest update with new world for you to try never mind',
-    },
-    {
-      imgUrl: '/headset.svg',
-      title: 'More realistic',
-      subheading:
-          'In the latest update, your eyes are narrow, making the world more realistic than ever',
-    },
-  ];
+
   
   export const news = [
     {

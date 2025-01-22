@@ -55,7 +55,7 @@
   position: absolute;
   width: 404px;
   height: 800px;
-  left: 20%;
+  left: 0%;
   top: 5%;
   background: rgba(149, 66, 232, 0.35);
   filter: blur(175px);
@@ -86,7 +86,7 @@
   position: absolute;
   width: 200px;
   height: 316px;
-  left: 0px;
+  right: 0px;
   top: 0px;
   background: #8d39a3;
   filter: blur(175px);

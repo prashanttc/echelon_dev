@@ -1,17 +1,10 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { socials } from '../constants';
-
-import { footerVariants } from '../utils/motion';
 import Image from 'next/image';
 
 const Footer = () => (
-  <motion.footer
-    variants={footerVariants}
-    initial="hidden"
-    whileInView="show"
-    className='padding mx-auto   flex items-cente justify-center py-8 relative'
+  <footer className='padding mx-auto   flex items-cente justify-center py-8 relative'
   >
     <div className="footer-gradient" />
     <div className='inner-width x-auto flex flex-col gap-8'>
@@ -40,7 +33,7 @@ cdgi ,indore          </p>
         </div>
       </div>
     </div>
-  </motion.footer>
+  </footer>
 );
 
 export default Footer;
