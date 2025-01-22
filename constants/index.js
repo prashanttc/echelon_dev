@@ -1,11 +1,11 @@
 export const Core = [
-    {
-      id: '1',
-      imgUrl: '/planet-01.png',
-      name: 'Jigyarth Sharma',
-      role:'Innovation and outreach core',
+  {
+    id: '1',
+    imgUrl: '/planet-05.png',
+    name: 'Tanishka Bhagat',
+    role:'creative core',
 
-    },
+  },
     {
       id: '2',
       imgUrl: '/planet-02.png',
@@ -28,9 +28,9 @@ export const Core = [
     },
     {
       id: '5',
-      imgUrl: '/planet-05.png',
-      name: 'Tanishka Bhagat',
-      role:'creative core',
+      imgUrl: '/planet-01.png',
+      name: 'Jigyarth Sharma',
+      role:'Innovation and outreach core',
 
     },
     {
