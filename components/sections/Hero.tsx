@@ -17,7 +17,7 @@ const Hero = () => {
         >
           <div className="flex justify-center items-center flex-col relative w-full h-screen z-10">
             <motion.h1 variants={textVariant(0.9)} className="hero-heading">
-              Echeleon
+              Echelon
             </motion.h1>
             <motion.div
               variants={textVariant(1)}
@@ -28,11 +28,6 @@ const Hero = () => {
               <h1 className="hero-heading">society</h1>
             </motion.div>
           </div>
-          {/* <motion.div variants={slideIn('right', 'tween', 0.2, 1)} className="relative w-full md:-mt-[20px] -mt-[12px]">
-                    <div className='absolute w-full h-[300px] hero-gradient rounded-tl-[240px] z-0 -top-[30px]' />
-                    <Image src='/cover.png' height={500} width={500} alt='image-hero' className='w-full sm:h-[500px] h-[250px] object-cover rounded-tl-[240px] z-10 relative' />
-            
-                </motion.div> */}
         </motion.div>
       </section>
     </>

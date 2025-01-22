@@ -22,7 +22,7 @@ const NewsCard = ({ imgUrl, title, subheading, index }: Props) => {
                     <Image src={imgUrl} alt={title} height={24} width={24} className='rounded-2xl w-[80px] md:w-[180px] h-full  object-cover' />
                     <div className="w-full flex justify-between items-center">
                         <div className="flex-1 md:ml-[62px] flex flex-col ">
-                            <h4 className=" lg:text-[28px] font-semibold text-[10px] text-white">
+                            <h4 className=" lg:text-[28px] font-semibold text-[8px] text-white">
                                 {title}
                             </h4>
                             <p className="mt-[16px] font-normal lg:text-[16px] text-[8px] text-secondary-white">
