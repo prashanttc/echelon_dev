@@ -75,12 +75,12 @@ export const Core = [
     {
       name: 'twitter',
       url: '/twitter.svg',
-       link:''
+       link:'https://x.com/devsociety_CDGI'
     },
     {
       name: 'linkedin',
       url: '/linkedin.svg',
-      link:''
+      link:'https://www.linkedin.com/company/echelondevsociety/'
     },
     {
       name: 'instagram',
