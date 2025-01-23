@@ -7,7 +7,7 @@ import NewsCard from "../NewsCard";
 const UpcomingEvents = () => {
   return (
     <> 
-    <section className="md:padding relative w-full " id="news">
+    <section className="md:padding relative w-full px-5 " id="news">
        <div className="gradient-04 z-0 hidden md:block" />
        <div className="gradient-03 z-0 " />
        <div className="feedback-gradient z-0 right-0 " />

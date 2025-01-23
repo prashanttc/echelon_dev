@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../../utils/motion";
 
 const About = () => (
-  <section id="about" className=" relative z-10 ">
+  <section id="about" className=" relative z-10 px-5 ">
     <div className="gradient-02 z-0" />
     <motion.div
       variants={staggerContainer(0.1, 0.9)}
