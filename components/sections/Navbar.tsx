@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="py-5 w-full z-20 -ml-[40px] bg-black px-6 sm:px-16 fixed">
+    <div className="py-5 w-full z-20  bg-black px-6 sm:px-16 fixed">
       <div className="absolute w-[50%] inset-0 gradient-01 " />
       <div className="2xl:max-w-[1280px] w-full mx-auto flex justify-between gap-8">
         <Link href="#home">

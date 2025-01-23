@@ -8,7 +8,7 @@ import UpcomingEvents from "@/components/sections/UpcomingEvents"
 
 const page = () => {
   return (
-    <div className="bg-black overflow-hidden px-10">
+    <div className="bg-black overflow-hidden ">
     <Navbar/>
     <Hero/>
     <About/>
