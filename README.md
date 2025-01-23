@@ -3,6 +3,7 @@ Welcome to the Echelon Dev Society landing page repository! This project showcas
 live website: https://echelon-dev.vercel.app/
 
 Features
+
 Hero Section: A captivating introduction to the club with an engaging tagline and call-to-action.
 
 Navigation Bar: A responsive navbar that helps users quickly navigate to different sections of the page.
