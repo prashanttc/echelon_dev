@@ -7,7 +7,7 @@ import { useState } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '../ui/carousel';
 import TeamCardMobile from '../TeamCardMobile';
 const Team = () => {
-  const [active, setActive] = useState("world-2")
+  const [active, setActive] = useState("3")
   return (
     <section className='padding md:mt-10' id="explore">
       <motion.div

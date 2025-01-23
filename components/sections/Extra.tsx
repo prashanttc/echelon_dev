@@ -19,12 +19,10 @@ const Extra = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[20px] sm:leading-[40.32px] leading-[36.32px] text-white">
-            Anirudhh dugbe
+          <h4 className="font-bold sm:text-[28px] text-[20px] sm:leading-[40.32px] leading-[36.32px] text-white">
+            Echelon Dev Society
           </h4>
-          <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-           echelon club head
-          </p>
+   
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[18px] text-[10px] sm:leading-[45.6px] leading-[19.6px] text-white">
@@ -37,9 +35,9 @@ const Extra = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <Image
-          src="/extra.jpg"
-          width={240}
-          height={240}
+          src="/WhatsApp Image 2025-01-22 at 20.35.29_113531ef.jpg"
+          width={1000}
+          height={1000}
           alt="mascot"
           className="w-full lg:h-[610px] bg-red-300 h-auto min-h-[210px] object-cover rounded-[40px]"
         />
