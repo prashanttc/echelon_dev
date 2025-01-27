@@ -10,7 +10,7 @@ const Extra = () => (
       variants={staggerContainer(0.1, 0.9)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className=" inner-width mx-auto flex lg:flex-row flex-col gap-6"
     >
       <motion.div

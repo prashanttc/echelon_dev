@@ -14,7 +14,7 @@ const Team = () => {
         variants={staggerContainer(0.1, 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.25 }}
         className='inner-width mx-auto flex flex-col'
       >
         <p className='text-center text-white mb-10'>The core</p>

@@ -10,14 +10,14 @@ const About = () => (
       variants={staggerContainer(0.1, 0.9)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className="flex items-center justify-center mx-auto inner-width flex-col"
     >
       <p className="text-center mb-10  font-semibold text-[30px] md:text-[54px] text-white">
         About echelon
       </p>
 
-      <motion.p
+      <motion.h1
         variants={fadeIn("up", "tween", 0.2, 1)}
         className="mt-[8px] font-light sm:text-[28px] text-[15px] w-full  text-center text-secondary-white"
       >
@@ -34,7 +34,7 @@ const About = () => (
           passionate innovators shaping the future. Join us to explore, create,
           and lead!
         </p>
-      </motion.p>
+      </motion.h1>
 
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}

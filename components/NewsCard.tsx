@@ -15,7 +15,7 @@ const NewsCard = ({ imgUrl, title, subheading, index }: Props) => {
                 variants={staggerContainer(0.1, 0.9)}
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: false, amount: 0.25 }}
+                viewport={{ once: true, amount: 0.25 }}
                 className='flex items-center justify-center inner-width flex-col'
             >
                 <motion.div variants={fadeIn('up', 'spring', index * 0.5, 1)} className='w-full gap-5 md:gap-10  z-10 mx-auto md:h-[200px]  h-[100px] bg-slate-100/10 rounded-xl md:rounded-3xl flex md:p-5 p-2'>

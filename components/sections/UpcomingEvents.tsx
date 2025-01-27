@@ -15,7 +15,7 @@ const UpcomingEvents = () => {
         variants={staggerContainer(0.9, 0.1)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.25 }}
+        viewport={{ once: true, amount: 0.25 }}
         className=" mx-0  w-full md:mx-auto items-center justify-center flex flex-col"
       >
         <h1 className="text-center text-[10px] mb-10 sm:text-[14px] text-white z-10">Upcoming Events</h1>
